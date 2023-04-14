@@ -1,0 +1,58 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    color: orange;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+/* Layout Styles */
+
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: left;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 1rem;
+}
+
+.grid-item {
+    padding: 1rem;
+}
+
+.article-image {
+    width: 100%;
+    height: auto;
+}
+
+.two-columns {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1;
+    padding-right: 1rem;
+}
+
+.column:last-child {
+    padding-right: 0;
+}
